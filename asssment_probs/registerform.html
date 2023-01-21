@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color: rgb(77, 199, 230);
+            text-align: center;
+        }
+        form{
+            background-size: cover;
+            height: 100vh;
+        }
+        input{
+            border:1px solid;
+            border-radius: 20px;
+            margin: 5px;
+            height: 30px;
+            text-align: center;
+        }
+        span{
+            color: rgb(255, 0, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <h2>REGISTER</h2>
+    <form>
+        <input type="text" placeholder="First Name">
+
+        <input type="text" placeholder="Last Name"><br><br>
+
+        <input type="date" placeholder="DOB"><br><br>
+
+        <input type="email" placeholder="Email"><br><br>
+
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender"/> Male  
+        <input type="radio" name="gender"/> Female <br><br>
+
+        <input type="number" placeholder="Phone Number" size="10"><br><br>
+
+        <input type="password" placeholder="Password"><br><br>
+
+        <input type="password" placeholder="Confirm Password" required><br><br>
+
+        <input type="checkbox" required>
+        <label>I accept <span>Terms and conditions</span></label><br><br>
+
+        <input type="submit" value="Register Now">
+    </form>
+</body>
+</html>
